@@ -1,0 +1,20 @@
+#Ask for user's information
+
+first_name = input("Enter your first name: ")
+last_name = input("Enter your last name: ")
+current_year = int(input("Enter the current year: "))
+birth_year = int(input ("Enter your birth year: "))
+
+
+#calculate age
+
+age = current_year - birth_year
+#print greeting
+print ("Hello" + first_name + " " + last_name + "! \nYou are " + str(age) + "years old this year.")
+#increase age by 1
+age +=1
+#how old they will be using f string
+print(f"in the next year {current_year + 1}, you will be {age}  years old.")
+
+#print completed
+print ("Completed by Vincent Cain")
